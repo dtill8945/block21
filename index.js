@@ -12,7 +12,7 @@ Car.prototype.getDescription = function () {
 return `Make: ${this.make}, Model: ${this.model}, Year: ${this.year}`;
 };
 
-// Define our ElectricCar function as a subclass of Car
+// Define our ElectricCar function as a subclass of Car giving our range as well
 
 function ElectricCar(make, model, year, range) {
     Car.call(this, make, model, year);
